@@ -28,12 +28,20 @@
 
 مورد اول مربوط به merge کردن issue 14 و main هست که عکس های آن قابل مشاهده است:
 
+![Megre fail](pics/MergeFailed.png)
+![Megre Manually](pics/MergeManually.png)
+
 همانطور که مشاهده کردید این مورد به صورت دستی حل شد و در نهایت با ایجاد یک pull request به branch main انتقال یافت:
+
+![Merge Result](<pics/merge resault.png>)
 
 مورد بعدی یک automatic merge اتفاق افتاد که بین issue 17 و main بود :
 
+![Auto Merge](pics/AutoMerge.png)
 
+در واقع این automate merge زمانی اتفاق افتاد که در issue 17 branch بودیم و آن را با main برنچ merge کردیم
 
+در نهایت هم وقتی در branch main بودیم و خواستیم که issue 17 را با آن merge کنیم مانند issue 14 دوباره به صورت دستی آن را حل کردیم . نتیجه آن هم بعد از pull request درون مخزن گیت موجود است.
 ## سوالات
 ۱. پوشه .git یک دایرکتوری در پروژه است که Git از آن برای ذخیره تمام اطلاعات مخزن ما استفاده می کند . این شامل مواردی مانند commit ها، شاخه ها، برچسب ها و سایر اطلاعاتی است که Git برای ذخیره تاریخچه پروژه استفاده می کند.
 
